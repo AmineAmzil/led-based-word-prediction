@@ -11,7 +11,7 @@ This electron app was developed for a study about the impact of word prediction 
 - MonogoDb database (e.g. [Atlas](https://www.mongodb.com/atlas))
 - Email address to recieve the logs
 
-# Metrics calculation and regnition:
+# Metrics calculation and recognition:
 The app uses internally a web application which was developed to record/gather text entry metrics. Please refer to this [link](http://www.asarif.com/resources/WebTEM/) for more details.
 
 
