@@ -14,5 +14,12 @@ This electron app was developed for a study about the impact of word prediction 
 # Metrics calculation and recognition:
 The app uses internally a web application which was developed to record/gather text entry metrics. Please refer to this [link](http://www.asarif.com/resources/WebTEM/) for more details.
 
+# Words data set:
+the set of possible predicted words is limited to 2712. The used set of words and phrases is provided by [MacKenzie and Soukoreff](https://dl.acm.org/doi/10.1145/765891.765971).
+
+# Acknowledgments:
+
+Special thanks to our supervisor in this Human-Computer Study [Prof. Valentin Schwind](https://vali.de/).
+
 
 
