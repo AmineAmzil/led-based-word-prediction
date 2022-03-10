@@ -1,0 +1,46 @@
+{
+  "name": "led-based-word-prediction",
+  "version": "1.0.0",
+  "description": "Electron app uses led backlighting in a logitech g series keyboard (G 815) to show word suggestion",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.ledbasedpredection.app",
+    "productName": "Led Based Word Predection",
+    "target": "NSIS",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  },
+  "keywords": [
+    "ITE",
+    "word prediction",
+    "word suggestion"
+  ],
+  "author": "Amine Amzil",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "logitech-led": "github:AmineAmzil/logitech-led",
+    "mongoose": "^6.1.1",
+    "nanoid": "^3.1.30",
+    "spelling": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmineAmzil/led-based-word-prediction.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmineAmzil/led-based-word-prediction/issues"
+  },
+  "homepage": "https://github.com/AmineAmzil/led-based-word-prediction#readme",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-builder": "^22.14.5"
+  }
+}

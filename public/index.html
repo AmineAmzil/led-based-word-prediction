@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstarp CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <!--  -->
+    <title>Questionaire</title>
+  </head>
+
+  <body>
+
+    <head></head>
+
+    <main class="container-fluid d-flex justify-content-center align-items-center">
+
+      <section style="padding-top: 50px;padding-bottom: 50px;">
+        <form action="" id="participantInfo">
+
+          <!-- Matriculation number -->
+
+          <div class="mb-3">
+            <label for="matriculationNumber" class="form-label">What is your matriculation number?</label>
+            <input type="number" class="form-control" name="matriculationNumber" id="matriculationNumber"
+              placeholder="matriculation number from University" min="0" required>
+          </div>
+
+
+          <!-- How often do you type in English? -->
+
+          <div class="mb-3">
+            <label for="gender" class="form-label">What is your gender?</label>
+            <select class="form-select" id="gender" name="gender" required>
+              <option value="" selected>Open this select menu</option>
+              <option value="m">Male</option>
+              <option value="w">Female</option>
+              <option value="o">Third</option>
+            </select>
+          </div>
+
+          <!-- Age -->
+
+          <div class="mb-3">
+            <label for="participantAge" class="form-label">What is your age?</label>
+            <input type="number" class="form-control" name="age" id="participantAge" placeholder="Age" required min="13"
+              max="100">
+          </div>
+
+          <!-- Native language -->
+
+          <div class="mb-3">
+            <label for="nativeLanguage" class="form-label">What is your native language?</label>
+            <select class="form-select" id="nativeLanguage" name="nativeLanguage" required>
+              <option value="" selected>Open this select menu</option>
+            </select>
+          </div>
+
+          <!-- How often do you type in English? -->
+
+          <div class="mb-3">
+            <label for="englishUse" class="form-label">How often do you type in English?</label>
+            <select class="form-select" id="englishUse" name="englishUse" required>
+              <option value="" selected>Open this select menu</option>
+              <option value="always">Always</option>
+              <option value="usually">Usually</option>
+              <option value="sometimes">Sometimes</option>
+              <option value="rarely">Rarely</option>
+              <option value="never">Never</option>
+            </select>
+          </div>
+
+          <!-- Keyboard layout -->
+
+          <div class="mb-3">
+            <label for="keyboardLayout" class="form-label">Which keyboard layout do you use?
+            </label>
+            <select class="form-select" name="keyboardLayout" id="keyboardLayout" required>
+              <option value="">Select a layout</option>
+              <option value="qwerty">QWERTY</option>
+              <option value="qwertz">QWERTZ</option>
+            </select>
+          </div>
+
+          <!-- Keyboard profile -->
+
+          <div class="mb-3">
+            <label for="keyboardProfile" class="form-label">Which keyboard type do you have? low-profile or
+              high-profile?</label>
+            <select class="form-select" name="keyboardProfile" id="keyboardProfile" required>
+              <option value="">Select one profile</option>
+              <option value="low">Low-profile / laptop keyboard</option>
+              <option value="high">high-profile / gaming</option>
+            </select>
+          </div>
+
+
+          <!-- Touch typing course -->
+
+          <div class="mb-3">
+            <label class="form-label">Have you ever taken touch typing course for desktop computers?
+            </label>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="touchTypingCourse" id="touchTypingCourseYes"
+                value="true" required>
+              <label for="touchTypingCourseYes" class="form-check-label">Yes</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="touchTypingCourse" id="touchTypingCourseNo"
+                value="false">
+              <label for="touchTypingCourseNo" class="form-check-label">No</label>
+            </div>
+          </div>
+
+
+          <!-- Typsist yes or no -->
+
+          <div class="mb-3">
+            <label class="form-label">Do you consider yourself a typist?
+            </label>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="isTypist" id="isTypist" value="true" required>
+              <label for="isTypist" class="form-check-label">Yes</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" name="isTypist" id="isTypist" value="false">
+              <label for="isTypist" class="form-check-label">No</label>
+            </div>
+          </div>
+
+          <!-- Average typing time -->
+
+          <div class="mb-3">
+            <label for="avrageDailyTyping" class="form-label">On average, how many hours per day do you spend
+              writing with your physical keyboard?
+            </label>
+            <input type="number" class="form-control" name="avrageDailyTyping" id="avrageDailyTyping"
+              placeholder="[0-12] hours" min="0" max="12" required>
+          </div>
+
+          <!-- Used hands -->
+
+          <div class="mb-3">
+            <label for="usedHand" class="form-label">Which hand do you use for typing?
+            </label>
+            <select class="form-select" name="usedHand" id="usedHand" placeholder="right, left or both" required>
+              <option value="">Select One option</option>
+              <option value="right">Right</option>
+              <option value="left">Left</option>
+              <option value="both">Both</option>
+            </select>
+          </div>
+
+          <!-- Fingers used -->
+
+          <div class="mb-3">
+            <label for="usedFingers" class="form-label">How many fingers do you use for type?
+            </label>
+            <input type="number" class="form-control" name="usedFingers" id="usedFingers" placeholder="1, 2, 3, ......."
+              required min="1" max="10">
+          </div>
+
+          <!-- Submit button -->
+
+          <div>
+            <button class="btn btn-success" type="submit">Next</button>
+          </div>
+        </form>
+
+      </section>
+
+    </main>
+
+  </body>
+
+  <script type="module" src="./indexRenderer.js"></script>
+
+</html>

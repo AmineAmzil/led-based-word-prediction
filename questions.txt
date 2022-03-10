@@ -1,0 +1,10 @@
+What is your age?
+What is your gender?
+What is your native language?
+How often do you type in English?
+Which keyboard layout do you use?
+Which keyboard you used to? low-profile or high-profile?
+Have you ever taken touch typing course for desktop computers?
+On average, how many hours per day do you spend writing with your desktop keyboard?
+Which hand did you use to type during the test?
+Which fingers did you use to type during the test?
