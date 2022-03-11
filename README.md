@@ -17,6 +17,11 @@ The app uses internally a web application which was developed to record/gather t
 # Words data set:
 the set of possible predicted words is limited to 2712. The used set of words and phrases is provided by [MacKenzie and Soukoreff](https://dl.acm.org/doi/10.1145/765891.765971).
 
+# Paper:
+
+[Data and Paper](https://github.com/AmineAmzil/HCI-intelligent-keyboard-data-analysis)
+
+
 # Acknowledgments:
 
 Special thanks to our supervisor in this Human-Computer Study [Prof. Valentin Schwind](https://vali.de/).
